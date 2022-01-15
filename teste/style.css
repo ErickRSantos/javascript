@@ -1,0 +1,48 @@
+body{
+    font-family: Arial;
+}
+div#textos{
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    column-gap: normal;
+    text-align: center;
+}
+input#botao_somar{
+    font: 15pt Arial;
+    width: 50px;
+    margin: 10px;
+}
+input#botao_subtrair{
+    font: 15pt Arial;
+    width: 50px;
+    margin: 10px;
+}
+input#botao_dividir{
+    font: 15pt Arial;
+    width: 50px;
+    margin: 10px;
+}
+input#botao_multiplicar{
+    font: 15pt Arial;
+    width: 50px;
+    margin: 10px;
+}
+input#txt1{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    font-size: 15pt;
+}
+input#txt2{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    font-size: 15pt;
+}
+div#resultado {
+    width: auto;
+    height: 20px;
+    background-color: greenyellow;
+    border-radius: 3px;
+    text-align: center;
+}
